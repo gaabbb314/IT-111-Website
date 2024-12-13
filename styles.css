@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    background-color: #e0ebeb; /* Light winter-themed background */
+}
+
+/* Navigation Sidebar */
+nav {
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #24527a; /* Winter-themed blue */
+    padding: 10px;
+    border-right: 5px solid #a6b1e1;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 20px 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main Content */
+main {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+  h1 {
+    font-size: 36px; /* Size for <h1> */
+    color: #27296d;
+}
+
+h2 {
+    font-size: 30px; /* Size for <h2> */
+    color: #27296d;
+}
+
+h3 {
+    font-size: 18px; /* Size for <h3> */
+    color: #27296d;
+}
+
+/* Profile Section (Image and Bio) */
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between the image and bio */
+}
+
+.image-container {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #24527a;
+    
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+/* Bio Section */
+.bio {
+    max-width: 900px; /* Limit the width of the bio section */
+    text-align: justify;
+}
+
+.bio h1 {
+    margin: 0;
+}
+
+.bio p {
+    line-height: 1.6;
+}
+
+/* Project Section */
+.project {
+    text-align: center; /* Center-aligns all projects by default */
+    line-height: 1px;
+    padding: 10px;
+    border: 10px solid #24527a;
+    background-color: #d5eeff;
+    border-radius: 20px;
+    max-width: 900px;
+    margin: 0 auto; /* Centers the project container */
+}
+
+/* Description Text */
+.description-text {
+    text-align: justify; /* Justifies the description text */
+    margin-top: 20px; /* Adds some space above */
+    line-height: 1.3;
+}
+
+.description-heading {
+    text-align: left; /* Align the word "Description" to the left */
+    margin-top: 20px; /* Adds space on top */
+}
+
+.sdg {
+    text-align: justify; /* Justifies the description text */
+    margin-top: 10px; /* Adds some space above */
+    text-indent: 0px; /* Optional: Indents the first line */
+    line-height: 1.3;
+}
+
+footer {
+    text-align: center;
+    padding: 0px; 
+    line-height: 1px; 
+    background: #18386b;
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    margin: 0; 
+}
